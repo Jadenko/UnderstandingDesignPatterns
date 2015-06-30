@@ -7,4 +7,5 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>adapter</artifactId>
+	<name>Adapter Pattern</name>
 </project>
