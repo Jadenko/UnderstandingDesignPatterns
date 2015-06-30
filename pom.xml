@@ -126,5 +126,6 @@
 	<modules>
 		<module>adapter</module>
 		<module>bridge</module>
+		<module>decorator</module>
 	</modules>
 </project>
