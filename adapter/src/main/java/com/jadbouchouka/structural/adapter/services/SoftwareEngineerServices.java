@@ -1,4 +1,4 @@
-package com.jadbouchouka.adapter.service;
+package com.jadbouchouka.structural.adapter.services;
 
 public class SoftwareEngineerServices {
 

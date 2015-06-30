@@ -1,4 +1,4 @@
-package com.jadbouchouka.adapter.adaptee;
+package com.jadbouchouka.structural.adapter.adaptee;
 
 public class ScalaSoftwareEngineer implements ISoftwareEngineer {
 

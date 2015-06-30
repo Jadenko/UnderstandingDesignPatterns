@@ -1,10 +1,10 @@
-package com.jadbouchouka.adapter.service;
+package com.jadbouchouka.structural.adapter.services;
 
-import com.jadbouchouka.adapter.adaptee.GroovySoftwareEngineer;
-import com.jadbouchouka.adapter.adaptee.ISoftwareEngineer;
-import com.jadbouchouka.adapter.adaptee.JavaSoftwareEngineer;
-import com.jadbouchouka.adapter.adaptee.ScalaSoftwareEngineer;
-import com.jadbouchouka.adapter.service.SoftwareEngineerServices.Language;
+import com.jadbouchouka.structural.adapter.adaptee.GroovySoftwareEngineer;
+import com.jadbouchouka.structural.adapter.adaptee.ISoftwareEngineer;
+import com.jadbouchouka.structural.adapter.adaptee.JavaSoftwareEngineer;
+import com.jadbouchouka.structural.adapter.adaptee.ScalaSoftwareEngineer;
+import com.jadbouchouka.structural.adapter.services.SoftwareEngineerServices.Language;
 
 /**
  * The Adapter

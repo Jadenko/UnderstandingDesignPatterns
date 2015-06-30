@@ -1,9 +1,11 @@
-package com.jadbouchouka.adapter;
+package com.jadbouchouka.structural.adapter;
 
 import static org.fest.assertions.Assertions.assertThat;
 
 import org.fest.assertions.Condition;
 import org.junit.Test;
+
+import com.jadbouchouka.structural.adapter.Main;
 
 public class MainTest {
 

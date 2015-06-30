@@ -1,8 +1,8 @@
-package com.jadbouchouka.adapter;
+package com.jadbouchouka.structural.adapter;
 
-import com.jadbouchouka.adapter.service.Engineer;
-import com.jadbouchouka.adapter.service.SoftwareEngineerServices;
-import com.jadbouchouka.adapter.service.SoftwareEngineerServices.Language;
+import com.jadbouchouka.structural.adapter.services.Engineer;
+import com.jadbouchouka.structural.adapter.services.SoftwareEngineerServices;
+import com.jadbouchouka.structural.adapter.services.SoftwareEngineerServices.Language;
 
 public class Main {
 
