@@ -4,6 +4,13 @@ import com.jadbouchouka.structural.adapter.services.Engineer;
 import com.jadbouchouka.structural.adapter.services.SoftwareEngineerServices;
 import com.jadbouchouka.structural.adapter.services.SoftwareEngineerServices.Language;
 
+/**
+ * Convert the interface of some class b into an interface a that some client class c understands. The AdapterPattern
+ * lets classes with incompatible interfaces work together. This is sometimes called a wrapper because an adapter class
+ * wraps the implementation of another class in the desired interface.
+ *
+ * @author Jad B.
+ */
 public class Main {
 
 	static SoftwareEngineerServices softwareEngineerServices = new SoftwareEngineerServices();

@@ -32,21 +32,23 @@
 				<artifactId>h2</artifactId>
 				<version>${h2.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<version>${junit.version}</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.easytesting</groupId>
-				<artifactId>fest-assert</artifactId>
-				<version>${festAssert.version}</version>
-				<scope>test</scope>
-			</dependency>
-
 		</dependencies>
 	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.easytesting</groupId>
+			<artifactId>fest-assert</artifactId>
+			<version>${festAssert.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 
 
 	<build>
@@ -123,5 +125,6 @@
 
 	<modules>
 		<module>adapter</module>
+		<module>bridge</module>
 	</modules>
 </project>
